@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(17, 18, 18, 0.466);
+}
+.contenedor{
+    background-color: rgba(110, 112, 114, 0.466);
+    border-radius: 10px 10px 10px 10px; 
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    display:flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.imagen{
+    border-radius: 10px 10px 10px 10px; 
+}
+.datos{
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+.subdatos{
+    margin: 10px;
+}
+.precio{
+    margin: 10px;
+    color: #000;
+    font-weight: bold;
+    text-align: right;
+}
