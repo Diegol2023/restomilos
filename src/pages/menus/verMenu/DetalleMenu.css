@@ -1,0 +1,23 @@
+.contenedorDetalle{
+    background-color: rgba(110, 112, 114, 0.466);
+    border-radius: 10px 10px 10px 10px; 
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    display:flex;
+    flex-direction: row;
+    
+}
+.botones    	{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.botones button{
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
