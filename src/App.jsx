@@ -7,6 +7,11 @@ import Slider from '/src/pages/slider/Slider';
 import Menu from '/src/pages/home/Menu';
 import Login from '/src/pages/login/Login';
 import VerMenu from '/src/pages/menus/verMenu/VerMenu';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Logout from './pages/login/Logout';
+import ModificarMenu from './pages/menus/modificarMenu/ModificarMenu';
+
 
 function App() {
   
@@ -14,14 +19,20 @@ function App() {
     <>
     
       <BrowserRouter>
+        <Header />
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/crear-menu" element={<CrearMenu />} />
+            <Route path="/modificar-menu/:idmenu" element={<ModificarMenu />} />
+            <Route path="/mis-menus/:iduser" element={<verMenu />} />
             <Route path="/slider" element={<Slider />} />
             <Route path="/menu" element={<Menu />} />
             <Route path="/login" element={<Login />} />
-            <Route path='/menu/:idmenu' element={<VerMenu />} />
+            <Route path="/menu/:idmenu" element={<VerMenu />} />
+            <Route path='/perfil' element={<myMenu />} />
+            <Route path="/logout" element={<Logout />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
            
       {/*<div >
