@@ -7,6 +7,8 @@ import Slider from '/src/pages/slider/Slider';
 import Menu from '/src/pages/home/Menu';
 import Login from '/src/pages/login/Login';
 import VerMenu from '/src/pages/menus/verMenu/VerMenu';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -14,6 +16,7 @@ function App() {
     <>
     
       <BrowserRouter>
+        <Header />
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/crear-menu" element={<CrearMenu />} />
@@ -22,6 +25,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path='/menu/:idmenu' element={<VerMenu />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
            
       {/*<div >
