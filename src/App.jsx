@@ -7,11 +7,6 @@ import Slider from '/src/pages/slider/Slider';
 import Menu from '/src/pages/home/Menu';
 import Login from '/src/pages/login/Login';
 import VerMenu from '/src/pages/menus/verMenu/VerMenu';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Logout from './pages/login/Logout';
-import ModificarMenu from './pages/menus/modificarMenu/ModificarMenu';
-
 
 function App() {
   
